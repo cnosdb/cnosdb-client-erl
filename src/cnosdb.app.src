@@ -1,0 +1,14 @@
+{application, cnosdb, [
+    {description, "CnosDB Client"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {cnosdb_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        ehttpc
+    ]},
+    {env, []},
+    {modules, []},
+    {links, []}
+]}.
